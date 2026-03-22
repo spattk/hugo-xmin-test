@@ -2,7 +2,6 @@ backend:
   name: github
   repo: spattk/hugo-xmin-test
   branch: main
-  site_domain: superlative-taffy-795952.netlify.app
 
 media_folder: "static/images"
 public_folder: "/images"
