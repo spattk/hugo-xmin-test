@@ -7,20 +7,75 @@ media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  - name: "post"
-    label: "Posts"
-    folder: "content/post"
+  - name: "tech"
+    label: "Tech"
+    folder: "content/tech"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Sitesh Pattanaik" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "travel"
+    label: "Travel"
+    folder: "content/travel"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Sitesh Pattanaik" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "culture"
+    label: "Culture"
+    folder: "content/culture"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Sitesh Pattanaik" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "ideas"
+    label: "Ideas"
+    folder: "content/ideas"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Sitesh Pattanaik" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "books"
+    label: "Books"
+    folder: "content/books"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Sitesh Pattanaik" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "pages"
     label: "Pages"
     folder: "content"
-    create: true
+    create: false
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }

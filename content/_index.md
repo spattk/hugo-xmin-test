@@ -1,38 +1,18 @@
 ---
-title: Home
+title: "Home"
 ---
 
-[<img src="https://simpleicons.org/icons/github.svg" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
+# Hey, I'm Sitesh!
 
-# HUGO XMIN
+I've been in tech for a while now, building cool stuff in fintech, adtech, and now at Amazon Elastic Kubernetes Service (EKS), where I work on democratizing Kubernetes. I'm all about solving tough problems, learning as I go, and sharing what I've picked up along the way.
 
-## _Keep it simple, but not simpler_
+When I'm not knee-deep in code, I'm
 
-**XMin** is a Hugo theme written by [Yihui Xie](https://yihui.org) in about four hours: half an hour was spent on the Hugo templates, and 3.5 hours were spent on styling. The main motivation for writing this theme was to provide a really minimal example to beginners of Hugo templates. This XMin theme contains about 140 lines of code in total, including the code in HTML templates and CSS (also counting empty lines).
+- Hosting my podcast [Byte Ventures](https://www.youtube.com/@ByteVenture)
+- Building [Seattle Systems](https://www.seattlesystems.xyz/), a community connecting people across tech, academia, startups, and life
+- Writing [The Control Loop](https://thecontrolloop.substack.com/), where I share real stories, tips, and things I wish I knew earlier in my career
+
+Outside of work, I'm just trying to figure life out—whether it's hiking epic trails, learning to swim, or debating coffee orders at Starbucks. If you're into tech, startups, or just want to chat, let's connect!
 
 
-``` bash
-find . -not -path '*/exampleSite/*' \( -name '*.html' -o -name '*.css' \) | xargs wc -l
-```
-
-```
-      12 ./layouts/single.html
-      20 ./layouts/list.html
-      13 ./layouts/terms.html
-       5 ./layouts/404.html
-       0 ./layouts/_partials/foot_custom.html
-       0 ./layouts/_partials/head_custom.html
-       9 ./layouts/_partials/footer.html
-      20 ./layouts/_partials/header.html
-      51 ./static/css/style.css
-       7 ./static/css/fonts.css
-     137 total
-```
-
-I can certainly further reduce the code, for example, by eliminating the CSS, but I believe a tiny bit of CSS can greatly improve readability. You cannot really find many CSS frameworks that only contain 50 lines of code.
-
-Although it is a minimal theme, it is actually fully functional. It supports pages (including the home page), blog posts, a navigation menu, categories, tags, and RSS. With [a little bit customization](https://github.com/yihui/hugo-xmin/blob/master/exampleSite/layouts/_partials/foot_custom.html), it can easily support LaTeX math expressions, e.g.,
-
-`$${\sqrt {n}}\left(\left({\frac {1}{n}}\sum _{i=1}^{n}X_{i}\right)-\mu \right)\ {\xrightarrow {d}}\ N\left(0,\sigma ^{2}\right)$$`
-
-All pages not under the root directory of the website are listed below. You can also visit the list page of a single section, e.g., [posts](/post/), or [notes](/note/). See the [About](/about/) page for the usage of this theme.
+## Posts
