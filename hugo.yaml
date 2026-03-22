@@ -1,6 +1,6 @@
 baseurl: "https://merry-kheer-74befa.netlify.app/"  # please update this to your actual URL
 languageCode: "en-us"
-title: "A minimal Hugo website"
+title: "The Global Journal by Sitesh"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
@@ -16,21 +16,27 @@ menu:
     - name: Home
       url: ""
       weight: 1
+    - name: Tech
+      url: "tech/"
+      weight: 2
+    - name: Travel
+      url: "travel/"
+      weight: 3
+    - name: Culture
+      url: "culture/"
+      weight: 4
+    - name: Ideas
+      url: "ideas/"
+      weight: 5
+    - name: Books
+      url: "books/"
+      weight: 6
     - name: About
       url: "about/"
-      weight: 2
-    - name: Categories
-      url: "categories/"
-      weight: 3
-    - name: Tags
-      url: "tags/"
-      weight: 4
-    - name: Subscribe
-      url: "index.xml"
+      weight: 7
 
 params:
-  description: "A website built through Hugo and blogdown."
-  footer: "&copy; [Yihui Xie](https://yihui.org) 2017 -- {Year} | [Github](https://github.com/yihui) | [BlueSky](https://bsky.app/profile/yihui.org)"
+  footer: "&copy; [Sitesh Pattanaik](https://your-site.netlify.app) {Year}"
 
 markup:
   highlight:
