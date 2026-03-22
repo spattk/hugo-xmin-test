@@ -12,6 +12,8 @@ collections:
     folder: "content/tech"
     create: true
     slug: "{{slug}}"
+    extension: md
+    format: yaml-frontmatter
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
