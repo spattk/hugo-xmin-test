@@ -1,7 +1,6 @@
 ---
 title: "Waffles and Miles"
 date: "2026-01-04"
-author: "Sitesh Pattanaik"
 tags: ["road-trip", "solo-travel", "usa", "pacific-northwest", "colorado", "new-mexico"]
 description: "A spontaneous 4000+ mile solo road trip from the PNW to Albuquerque, NM — born out of a cancelled flight and a desire to make the last week of 2025 count."
 ---
