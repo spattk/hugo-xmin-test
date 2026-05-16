@@ -1,5 +1,5 @@
 ---
-title: "Programming Kubernetes: Chapter 1 - Introduction"
+title: "Programming Kubernetes - Chapter 1: Introduction"
 date: "2026-05-16"
 tags: ["distributed-systems", "cloud", "programming-kubernetes", "kubernetes", "book-club"]
 ---
