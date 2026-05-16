@@ -1,7 +1,7 @@
 ---
 title: "Chapter 1: Trade-offs in data systems architecture"
 date: "2026-04-30"
-tags: ["distributed-systems", "cloud", "data-intensive", "book-cloub"]
+tags: ["distributed-systems", "cloud", "data-intensive", "book-club"]
 ---
 
 ### Chapter 1: Trade-offs in data systems architecture
