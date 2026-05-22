@@ -1,5 +1,5 @@
 ---
-title: "pnw with mom"
+title: "PNW with Mom"
 date: "2026-05-22"
 tags: ["pacific-northwest", "mom", "no-hiking"]
 description: "listing the experiences I had with my mom in PNW"
