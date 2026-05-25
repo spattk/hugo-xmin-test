@@ -152,7 +152,7 @@ description: listing the experiences I had with my mom in PNW
 
 #### Places that we ate
 
-* Spicy PoPo Szechuan Fish, bellevue
+* spicy popo szechuan fish, bellevue
 * chutneys, bellevue
 * mint and martini, capitol hill
 * clove, renton
