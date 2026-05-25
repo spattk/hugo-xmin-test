@@ -33,9 +33,9 @@ collections:
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "engineering"
-    label: "Engineering"
-    folder: "content/engineering"
+  - name: "curiosity"
+    label: "Curiosity"
+    folder: "content/curiosity"
     create: true
     slug: "{{slug}}"
     fields:

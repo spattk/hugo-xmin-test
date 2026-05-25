@@ -16,20 +16,23 @@ menu:
     - name: Home
       url: ""
       weight: 1
-    - name: Tech
-      url: "tech/"
-      weight: 2
-    - name: Travel
-      url: "travel/"
-      weight: 3
-    - name: Culture
-      url: "culture/"
-      weight: 4
-    - name: Ideas
-      url: "ideas/"
-      weight: 5
     - name: Books
       url: "books/"
+      weight: 1
+    - name: Culture
+      url: "culture/"
+      weight: 2
+    - name: Curiosity
+      url: "curiosity/"
+      weight: 3
+    - name: Ideas
+      url: "ideas/"
+      weight: 4
+    - name: Tech
+      url: "tech/"
+      weight: 5
+    - name: Travel
+      url: "travel/"
       weight: 6
     - name: About
       url: "about/"
