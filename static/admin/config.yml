@@ -33,6 +33,19 @@ collections:
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "engineering"
+    label: "Engineering"
+    folder: "content/engineering"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string", default: "Sitesh Pattanaik" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Description", name: "description", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "ideas"
     label: "Ideas"
     folder: "content/ideas"
@@ -74,18 +87,7 @@ collections:
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "engineering"
-    label: "Engineering"
-    folder: "content/engineering"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Author", name: "author", widget: "string", default: "Sitesh Pattanaik" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+
 
   - name: "pages"
     label: "Pages"
