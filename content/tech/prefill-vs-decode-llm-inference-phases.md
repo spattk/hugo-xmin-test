@@ -1,5 +1,5 @@
 ---
-title: "prefill vs decode : llm inference phases"
+title: "Prefill vs Decode : LLM Inference phases"
 date: 2026-09-10T19:14:00.000-07:00
 author: Sitesh Pattanaik
 ---
