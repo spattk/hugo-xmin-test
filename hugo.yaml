@@ -18,25 +18,25 @@ menu:
       weight: 1
     - name: Books
       url: "books/"
-      weight: 1
+      weight: 2
     - name: Culture
       url: "culture/"
-      weight: 2
+      weight: 3
     - name: Curiosity
       url: "curiosity/"
-      weight: 3
+      weight: 4
     - name: Ideas
       url: "ideas/"
-      weight: 4
+      weight: 5
     - name: Tech
       url: "tech/"
-      weight: 5
+      weight: 6
     - name: Travel
       url: "travel/"
-      weight: 6
+      weight: 7
     - name: About
       url: "about/"
-      weight: 7
+      weight: 8
 
 params:
   footer: "&copy; [Sitesh Pattanaik](https://your-site.netlify.app) {Year}"
