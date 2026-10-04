@@ -9,6 +9,18 @@
 <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 <script>
   CMS.registerPreviewStyle("/css/custom.css");
+
+  // Safety net: if the date is cleared/empty, stamp the current time on save.
+  CMS.registerEventListener({
+    name: "preSave",
+    handler: ({ entry }) => {
+      const data = entry.get("data");
+      if (!data.get("date")) {
+        return data.set("date", new Date().toISOString());
+      }
+      return data;
+    },
+  });
 </script>
 </body>
 </html>
